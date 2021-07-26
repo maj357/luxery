@@ -38,9 +38,9 @@
             <ul class="menu__list">
               <li data-menuanchor="first"><a class="menu__link" href="#first">Главная</a></li>
               <li data-menuanchor="auction"><a class="menu__link" href="#auction">Аукцион</a></li>
-              <li data-menuanchor="about"><a class="menu__link" href="#about">O проекте</a></li>
-              <li data-menuanchor="partners"><a class="menu__link" href="#partners">Партнерам</a></li>
-              <li data-menuanchor="contacts"><a class="menu__link" href="#contacts">Контакты</a></li>
+              <li data-menuanchor="about"><a class="menu__link" href="#about">Проекты</a></li>
+              <li data-menuanchor="partners"><a class="menu__link" href="#partners">Услуги</a></li>
+              <li data-menuanchor="contacts"><a class="menu__link" href="#contacts">Интересное</a></li>
             </ul>
           </nav>
         </div>
@@ -66,7 +66,7 @@
 
     <main id="fullpage" class="page">
 
-      <section data-anchor="first" class="fp-auto-height">
+      <section data-anchor="first">
         <div class="main-slider">
           <div class="main-slider__body">
             <div class="main-slider__item item-main-slider">
@@ -134,7 +134,7 @@
         </div>
       </section>
 
-      <section data-anchor="auction" data-percentage="70" data-centered="true" class="lots fp-auto-height">
+      <section data-anchor="auction" class="lots">
         <div class="lots__container container">
           <div class="lots__header block-header">
             <div class="title block-header__title">
@@ -464,9 +464,9 @@
         </div>
       </section>
 
-      <section>
+      <section data-anchor="about" class="projects">
         <div class="categories">
-          <div data-anchor="about" class="categories__items fp-auto-heigh">
+          <div class="categories__items">
             <div class="categories__container container">
               <div class="categories__row">
                 <div class="categories__column">
@@ -665,7 +665,7 @@
         </div>
       </section>
 
-      <section data-anchor="partners" class="service fp-auto-height">
+      <section data-anchor="partners" class="service">
         <div class="service__container container">
           <div class="service__header block-header">
             <div class="title block-header__title">
@@ -919,45 +919,47 @@
       </section>
 
       
-      <footer data-anchor="contacts" class="footer">
-      <div class="footer__content container">
-        <div class="footer__column footer__column_full">
-          <div class="footer__logo">
-            <a class="footer__link" href="#">
-              <img src="img/footer-logo.png" alt="footer logo">
-            </a>
-            <div data-da=".footer__content,768,3" class="footer__info">
-              Все права защищены © 2021
+      <section data-anchor="contacts">
+        <footer class="footer">
+        <div class="footer__content container">
+          <div class="footer__column footer__column_full">
+            <div class="footer__logo">
+              <a class="footer__link" href="#">
+                <img src="img/footer-logo.png" alt="footer logo">
+              </a>
+              <div data-da=".footer__content,768,3" class="footer__info">
+                Все права защищены © 2021
+              </div>
+            </div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__menu">
+              <ul class="footer__list">
+                <li><a href="#" class="footer__link">Главная</a></li>
+                <li><a href="#" class="footer__link">Аукцион</a></li>
+                <li><a href="#" class="footer__link">О проекте</a></li>
+                <li><a href="#" class="footer__link">Партнерам</a></li>
+                <li><a href="#" class="footer__link">Контакты</a></li>
+                <li><a href="#" class="footer__link">Новости</a></li>
+                <li><a href="#" class="footer__link">FAQ</a></li>
+                <li><a href="#" class="footer__link">Реклама</a></li>
+                <li><a href="#" class="footer__link">Соглашение</a></li>
+                <li><a href="#" class="footer__link">Регистрация</a></li>
+                <li><a href="#" class="footer__link">Услуги</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__contacts">
+              <a class="footer__phone" href="tel:+7495222222"><sup>+7</sup> (495) 22-22-22</a>
+              <div class="footer__callback">
+                <a class="footer__callback-link" href="#"><span>Обратная связь</span></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer__column">
-          <div class="footer__menu">
-            <ul class="footer__list">
-              <li><a href="#" class="footer__link">Главная</a></li>
-              <li><a href="#" class="footer__link">Аукцион</a></li>
-              <li><a href="#" class="footer__link">О проекте</a></li>
-              <li><a href="#" class="footer__link">Партнерам</a></li>
-              <li><a href="#" class="footer__link">Контакты</a></li>
-              <li><a href="#" class="footer__link">Новости</a></li>
-              <li><a href="#" class="footer__link">FAQ</a></li>
-              <li><a href="#" class="footer__link">Реклама</a></li>
-              <li><a href="#" class="footer__link">Соглашение</a></li>
-              <li><a href="#" class="footer__link">Регистрация</a></li>
-              <li><a href="#" class="footer__link">Услуги</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer__column">
-          <div class="footer__contacts">
-            <a class="footer__phone" href="tel:+7495222222"><sup>+7</sup> (495) 22-22-22</a>
-            <div class="footer__callback">
-              <a class="footer__callback-link" href="#"><span>Обратная связь</span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+            </footer>
+      </section>
 
     </main>
 
